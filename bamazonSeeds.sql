@@ -13,3 +13,5 @@ VALUES
     ("Mobile Phone", "Electronics", 799.99, 200),
     ("Knuffle Bunny Free", "Books", 14.55, 1000),
     ("Hydo Flask Water Bottle", "Sport", 29.99, 240);
+
+  SELECT concat('$', format(price,2)) FROM products;
