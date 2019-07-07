@@ -1,5 +1,5 @@
 # bamazon
-This project an Amazon-like storefront with a MySQL database was created.  The app takes in orders from customers and deplete stock from the store's invertory.  The MySQL and Inquirer npm packages was used in the app.
+This project is an Amazon-like storefront with a MySQL database.  The app takes in orders from customers and will deplete stock from the store's invertory.  The MySQL and Inquirer npm packages was used in the app.
 
 ## Overview: Customer View
 1. A MySQL Database called 'bamazon' was created which includes a table called 'products'.  
@@ -20,9 +20,20 @@ This project an Amazon-like storefront with a MySQL database was created.  The a
 1. MySQL must be installed.  See https://dev.mysql.com/downloads/installer/ for instructions.
 
 ## Installing
+1. Install source files, use git to clone files from https://github.com/kimkchau/bamazon
+1. In the Terminal or Visual Studio Code Terminal, navigate to downloaded file directory 
+1. Install the mysql and inquirer Node packages by entering the following in the terminal: npm install
+1. Create the mysql database:
+    1. In the Terminal, navigate (cd) to where the file is located
+    1. Connect to mysql by entering in the terminal `mysql -uroot -p`
+    1. Enter 'password when prompted
+    1. Enter 'source bamazon.sql'
+    1. Several 'Query OK' messages will display, which indicates that the database was successfully created.
 
+### Operation
+The bamazon app can be operated by entering `node bamazonCustomer` in the terminal.  User will see a table of all items available for purchase and will be prompted for which item they will like to purchase followed by the quantity.
 
-
-
-
+## Testing
+Please see the video below that documents testing of the app.
+![bamazon test video] (/bamazon/bamazonCustomer.mov) 
  
