@@ -35,7 +35,7 @@ The Bamazon app can be operated by entering `node bamazonCustomer` in the termin
 
 ## Testing
 Please see the video below that documents testing of the app.
-https://github.com/kimkchau/bamazon/blob/master/bamazonCustomer.mov.zip
+https://youtu.be/Oi3QwCMPhvk
  
 ### Deployment
 Navigate to https://github.com/kimkchau/bamazon to clone
